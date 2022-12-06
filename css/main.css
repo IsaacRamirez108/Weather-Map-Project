@@ -1,0 +1,39 @@
+#map {
+    /* the width and height may be set to any size */
+    width: 100%;
+    height: 350px;
+}
+body{
+    background-color: lightgrey;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.second-header{
+    background-color: lightgrey;
+    margin: 1em;
+    padding: 0;
+}
+
+#broadcast-location{
+    display: flex;
+    justify-content: center;
+}
+
+/*Styling the coordinates*/
+.coordinates {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 18px;
+    border-radius: 3px;
+    display: none;
+}
